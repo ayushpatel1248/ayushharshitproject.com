@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-section {
+    background: #460664;
+    width: 100%;
+    height: 100%;
+}
+
+.about-section-width {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.text-about {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px rgb(33, 32, 32);
+}
+
+.about-section .about-section-width p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-div {
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1450px) and (min-width:700px) {
+    .about-section-width p {
+
+        font-size: 22px !important;
+    }
+
+    .img-div {
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width:700px) and (min-width:400px) {
+    .about-section-width {
+        width: 90%;
+    }
+
+    .about-section {
+        background: linear-gradient(180deg, #460664 0%, #050734 71.04%);
+    }
+
+    .about-section-width p {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        font-size: 17px !important;
+    }
+
+    .img-div {
+        margin-top: -10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .img-1 {
+        width: 60%;
+        height: 60%;
+        position: relative;
+        left: 18vw;
+        top: 7vh;
+    }
+
+}
+
+
+@media screen and (max-width:400px) and (min-width:100px) {
+    .about-section-width {
+        width: 90%;
+    }
+
+    .about-section {
+        background: linear-gradient(180deg, #460664 0%, #050734 71.04%);
+    }
+
+    .about-section-width p {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        font-size: 15px !important;
+    }
+
+    .img-div {
+        margin-top: -10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .img-1 {
+        width: 60%;
+        height: 60%;
+        position: relative;
+        left: 18vw;
+        top: 7vh;
+    }
+
+}
+
+
+
+/* _____________________________________________________________________________________________________ */
+
+
+.main-event{
+    background: linear-gradient(180deg, #060522 0%, #090F42 100%);
+    width: 100vw;
+    height: 100vh;
+}
+.event-parent-div{
+    width: 80%;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;  
+}
+.mid-bar{
+    margin-top: 16em;
+}
+.event-heading{
+    padding-top: 3.5em;
+}
+.event-heading p{
+    margin-top: 1.4em;
+    font-size: 1.4rem;
+}
+.event-heading h3{
+    font-size: 2.4rem;
+}
+.mid-bar h4{
+    font-size: 2rem;
+}
+.mid-bar p{
+    font-size: 1.4rem;
+}
+
+
+@media screen and (max-width:500px) {
+    .event-heading p{
+        font-size: 1.2rem;
+    }
+    .event-heading h3{
+        font-size: 2rem;
+    }
+    .mid-bar h4{
+        font-size: 1.6rem;
+    }
+    .mid-bar p{
+        font-size: 1rem;
+    }
+}
+
+/* _____________________________________________________________________________________________________________________________________ */
+
+
+
+.containerr {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #0D0522 0%, #240627 53.3%, #091043 100%);
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+.Testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.Testimonials-bottom {
+    border-radius: 12%;
+    position: relative;
+    top: -27px;
+    background-color: white;
+    text-transform: uppercase;
+
+}
+
+.img {
+    position: relative;
+    z-index: 1;
+
+}
+
+.Testimonialshead {
+    font-size: 3rem;
+}
+
+.Testimonialspara {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.Testimonials-bottom h6 {
+
+    padding-top: 3px;
+    font-size: 17px;
+    letter-spacing: 3px;
+    margin-bottom: 2px !important;
+    color: #210f93;
+    text-shadow: 1px 2px 3px rgba(1, 1, 1, 0.5);
+}
+
+.Testimonials-bottom p {
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 0px !important;
+}
